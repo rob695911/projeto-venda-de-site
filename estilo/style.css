@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+      .image {
+            width: 100vw;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.467);
+        }
+
+        section h3 {
+            color: white;
+            margin: -120px;
+            font-family: 'Roboto Condensed', sans-serif;
+            
+        }
+        section > p {
+            
+            font-family: 'Caveat', cursive;
+            color: white;
+            padding-left: 20px;
+            
+            padding-bottom: 30px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        section > buttom {
+            margin-left: 35px;
+            border-radius: 5px;
+            background-color: orange;
+            padding: 5px;
+            
+        }
+
+        section a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        footer {
+           text-align: center;
+           background-color: rgba(244, 238, 238, 0.515);
+        }
+
+        footer > p {
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+       footer a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: blue;
+            text-decoration: none;
+        }
+
+        div h2 {
+            text-align: center;
+            color: rgb(8, 167, 246);
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 10px;
+        }
+
+        img {
+            width: 300px;
+            margin: auto;
+            text-align: center;
+            display: block;
+            
+        }
+
+        div p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        div button {
+            background-color: rgb(8, 167, 246);
+            font-weight: bolder;
+            margin: auto;
+            display: block;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+
+        div button a {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+    
