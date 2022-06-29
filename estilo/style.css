@@ -16,27 +16,14 @@
             padding: 0px;
         }
 
-        header {
-             background-color: rgba(244, 238, 238, 0.515);
-             color: black;
-             text-align: center;
+      .image {
+            width: 100vw;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.467);
         }
 
-        header > h1 {
-            padding: 5px;
-            font-family: 'Titillium Web', sans-serif;
-            font-size: 20px;
-        }
-        
-        section.image {
-            background-image: url('Fundo-Site.jpg');
-            min-height: 300px;
-            box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.467);
-        }
         section h3 {
             color: white;
-            padding-left: 20px;
-            padding-top: 50px;
+            margin: -120px;
             font-family: 'Roboto Condensed', sans-serif;
             
         }
