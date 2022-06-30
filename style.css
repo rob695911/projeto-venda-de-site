@@ -62,19 +62,7 @@
             font-family: 'Dancing Script', cursive;
         }
 
-        footer {
-           text-align: center;
-           background-color: rgba(244, 238, 238, 0.515);
-        }
 
-        footer > p {
-            padding: 5px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-       footer a {
-            text-decoration: none;
-            color: black;
-        }
         a:hover {
             color: blue;
             text-decoration: none;
@@ -117,4 +105,21 @@
             padding: 10px;
             color: white;
         }
+        
+        div.conteudo{
+            width: 97vw;
+            border: 1px solid black;
+           
+           box-shadow:inset 5px 5px 5px 0px black;
+        }
+
+        .float {
+           float: right;
+        }
+        footer {
+            background-color: black;
+            color: white;
+        }
+        
+        
         
